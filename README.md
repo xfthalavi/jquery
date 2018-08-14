@@ -2,7 +2,7 @@
 
 ## Jquery Ajax POST and GET
 
-```jquery
+```js
 	var base_url = 'www.example.com';
 	var data = {'name': 'Asif'}
   	$.ajax({
@@ -24,7 +24,8 @@
 		<input type="text" id="name"/>
 		<input type="email" id="email"/>
 	</form>
-
+```
+```js
 	var name = $("#name").val();
 	var email = $("#email").val();
 
@@ -41,7 +42,8 @@
 		<input type="email" id="email"/>
 		<button type="button" class="saveButton"> Save</button>
 	</form>
-
+```
+```js
 	$('body').on('click','saveButton',function(){
 			alert('save button clicked');
 		});
