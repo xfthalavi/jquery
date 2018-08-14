@@ -3,6 +3,7 @@
 ## Jquery Ajax POST and GET
 
 ```
+	var base_url = 'www.example.com';
 	var data = {'name': 'Asif'}
   	$.ajax({
         type: "POST",
