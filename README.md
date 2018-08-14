@@ -2,12 +2,12 @@
 
 ## Jquery Ajax POST and GET
 
-```
+```jquery
 	var base_url = 'www.example.com';
 	var data = {'name': 'Asif'}
   	$.ajax({
         type: "POST",
-        url: base_url + "test/abc",
+        url: base_url + "/test/abc",
         data: data,
         success: function(data)
         {
@@ -19,7 +19,7 @@
 
 ## How To Get Form Data
 
-```
+```html
 	<form>
 		<input type="text" id="name"/>
 		<input type="email" id="email"/>
@@ -35,7 +35,7 @@
 ## Jquery Events
 
 
-```
+```html
 	<form>
 		<input type="text" id="name"/>
 		<input type="email" id="email"/>
